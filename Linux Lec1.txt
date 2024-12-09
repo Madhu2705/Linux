@@ -1,0 +1,10 @@
+Linux Commands:
+1)ls->list all files
+2)cd->current directory
+3)pwd->present working directory
+4)mkdir->make directory
+5)rmdir->delete only empty folder
+6)touch->create a file
+7)cp source destination->copy file
+8)rm -r foldername->delete folder with files in it
+9)mv folder/f1.txt folder2->move f1.txt to folder2
