@@ -1,0 +1,40 @@
+Absolute path->from root
+Relative path->remaining 
+1)/bin->stands for binary.Binary is a file which contains the compiled source code.
+2) /sbin: system binaries or super user binaries. 
+This folder contains commands which are required for changing system properties.
+3) /boot:  
+The contents are mostly Linux kernel files and bootloaderfiles(files needed to start up the operating system)
+4) /dev :  
+This contains device files 
+This file represents your speaker device,keyboard .
+5) /etc:- 
+it contains all system related configuration files in here or in its sub-directories 
+A "configuration file" is defined as a local file used to control the operation of a program; 
+it cannot be an executable binary. 
+6) ls -r 
+It will display all files and directories in reverse of aplhabetical order. 
+7)ls -l 
+To display long listing of files 
+8) ls -t 
+To display all files based on last modified date and time. Most recent is at top and old 
+are at bottom. 
+9) ls -rt 
+To display all files based on reverse of last modified date and time. Old files are at top 
+and recent files are at bottom. 
+10) ls -a 
+a means all 
+To display all files including hidden files. Here . and .. also will be displayed. 
+11) ls -A 
+A means almost all 
+To display all files including hidden files except . and .. 
+12) ) ls -h 
+display in human readable format 
+13) ls -R 
+R means Recursive. 
+It will list all files and directories including sub directory contents also. By default ls 
+will display only direct contents but not sub directory contents
+
+  
+
+  
