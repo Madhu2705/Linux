@@ -1,0 +1,57 @@
+1)For creating multiple folder
+mkdir folder{1..20}
+
+2)For deleting multiple folder
+rmdir folder{1..20}
+
+3)when dir1 and 2 is present
+mkdir dir1/dir2/dir3
+
+4)this command make all directory
+mkdir-p dir1/dir2/dir3
+
+5)for creating hidden file
+touch .filename
+
+6)rename the file
+mv .file3.txt file4.txt
+7)history is used to show all commands
+
+8)ctrl+d is used to exit from editor
+
+9)cat>>filename->for writing in file without overriding
+
+10)cat>filename->create file,add text
+
+11)cat<filename/cat filename->to print data
+
+12)touch file1   ------> change timestamp ( both access and modify time)  
+touch -a file1    -----> change access file of file1  
+touch -m file1 ------> change modify time of file1  
+touch -r file1 file2 -----> use file1's timestamp as reference and change timestamp of file2 
+
+                                          ( now file2 timestamp will change and become same as file1 ) 
+
+try :- touch -r file2 -a file1   and observe using stat command what happens
+13)-n  option to give line numbering to file content 
+-b to give numbering to all lines apart from blank lines 
+
+14)tac->It is the reverse of cat. 
+It will display file content in reverse order of lines. i.e first line will become last line and last line will become first line. 
+This is vertical reversal.
+
+15)rev->is used to reverse each line.
+
+16)head->We can use head command to view top few lines of content. 
+   head filename->it display top 10 lines.
+head-n 15filename->display top 15 lines.
+head -c 15filename->to display first 15 bytes
+ 
+17)tail->print last 10 lines 
+
+18)more:By using more command, we can view file content page by page only in forward direction. 
+
+19)less->By using more command, we can view file content page by page only in forward/backward direction. 
+If we want to move either in forward direction or in backward direction then we should go for less command. 
+d  To go to next page.(d means down)  
+b To go to previous page. (b means backward) 
