@@ -1,0 +1,58 @@
+1)sort :-             
+We can sort data of the file by using sort command. 
+
+2)unique:
+give values only once repition is not allowed
+3)if we want to sort based on numeric value then we have to use -n option. 
+-n means numeric value 
+
+$ sort -n a.txt 
+
+2 
+
+7 
+
+9 
+
+11 
+
+2222222 
+4)Bydefault sort command will display duplicate lines. If we want only unique lines then we  
+
+have to use -u option. -u meant for unique lines. 
+
+$ cat a.txt 
+
+1 
+
+1 
+
+2 
+
+2 
+
+Sunny 
+
+Sunny 
+
+Bunny 
+
+$ sort a.txt 
+
+1 
+
+1 2 2 
+
+Bunny 
+
+Sunny 
+
+Sunny 
+
+$ sort -u a.txt 
+
+1 2 
+
+Bunny 
+
+Sunny 
